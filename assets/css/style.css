@@ -5,6 +5,29 @@ body {
     box-sizing: border-box;
     font-family: 'Oswald', 'Open Sans', sans-serif;
   }
+h1 {
+    font-size: 40px;
+    font-family: 'Oswald';
+}
+h2 {
+    font-size: 35px;
+    font-family: 'Oswald';
+    font-weight: 700;
+}
+h3 {
+    font-size: 25px;
+    font-family: 'Oswald';
+    font-weight: 600;
+}
+h4 {
+    font-size: 17px;
+    font-family: 'Oswald';
+    font-weight: 400;
+}
+p {
+    font-family: 'Open sans';
+    font-weight: 400;  
+}
 /*Navbar*/
 #color-nav {
   background-color: #660066 !important;
@@ -28,6 +51,50 @@ body {
 .navbar-toggler {
   border: 1px solid;
   color: #FFFFFF7F ;
-  border-color: #777777 !important;
+  border-color: #FFFFFF7F !important;
   margin-right: 21px;
-}  
+} 
+/*hero-section*/
+.hero-section {
+    height: 500px;
+    background-image: url("../img/bg_hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    margin-top: 60px;
+    text-align: center;
+  }
+.hero-section h1 {
+    font-weight: 200;
+}
+#subtitulo {
+    font-weight: 700;
+}
+.texto-hero {
+    padding-top: 380px;
+}
+/*Sobre Mi*/
+.about-me-section {
+    display: none;
+}
+
+
+@media (min-width: 480px) {
+/*Sobre Mi*/
+    .about-me-section {
+        display: block;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 86px;
+    }
+    .about-me-section h3 {
+        text-align: center;
+        padding-bottom: 66px;
+    }
+    .about-me-section p {
+        line-height: 35px;
+        text-align: justify;
+    }
+
+}
