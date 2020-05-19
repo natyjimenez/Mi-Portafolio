@@ -30,29 +30,29 @@ p {
 }
 /*Navbar*/
 #color-nav {
-  background-color: #660066 !important;
-  padding-top: 2.4px;
-  padding-bottom: 2.4px;
+    background-color: #660066 !important;
+    padding-top: 2.4px;
+    padding-bottom: 2.4px;
 }
 .logo-navbar {
-  font-family: 'Oswald';
-  font-size: 40px;
-  font-weight: 700;
-  color: #FFFFFF;
-  padding-left: 21px;      
+    font-family: 'Oswald';
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-left: 21px;      
 }
 #navbarNavDropdown {
-  font-family: 'Open sans';
-  font-size: 16px;
-  font-weight: 400;
-  color: #FFFFFF;
-  text-align: center;   
+    font-family: 'Open sans';
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;   
 }
 .navbar-toggler {
-  border: 1px solid;
-  color: #FFFFFF7F ;
-  border-color: #FFFFFF7F !important;
-  margin-right: 21px;
+    border: 1px solid;
+    color: #FFFFFF7F ;
+    border-color: #FFFFFF7F !important;
+    margin-right: 21px;
 } 
 /*hero-section*/
 .hero-section {
@@ -64,7 +64,7 @@ p {
     text-shadow: 0.125em 0.25em 0.125em #707070;
     margin-top: 60px;
     text-align: center;
-  }
+}
 .hero-section h1 {
     font-weight: 200;
 }
@@ -78,6 +78,36 @@ p {
 .about-me-section {
     display: none;
 }
+/*Estudios*/
+#estudios {
+    text-align: center;
+    padding-top: 36px;
+}
+.estudios1 {
+    margin-bottom: 38px;
+}
+.estudios2 {
+    margin-bottom: 47px;
+}
+#estudios h2 {
+    padding-bottom: 54px;
+}
+.estudios1 h3 {
+    font-weight: 600;
+}
+.estudios2 h3 {
+    font-weight: 600;
+}
+#fecha-estudio1 {
+    font-family: "Open sans";
+    font-weight: 300;
+}
+#fecha-estudio2 {
+    font-family: "Open sans";
+    font-weight: 300;
+}
+
+
 
 
 @media (min-width: 480px) {
@@ -90,11 +120,22 @@ p {
     }
     .about-me-section h3 {
         text-align: center;
-        padding-bottom: 66px;
+        padding-bottom: 46px;
     }
     .about-me-section p {
         line-height: 35px;
         text-align: justify;
     }
+/*Estudios*/
+    .contenido-estudios {
+        margin-right: 0px;
+    }
+    .estudios1 {
+        margin-bottom: 0;
+    }
+    .estudios2 {
+        margin-bottom: 88px;
+    }
+
 
 }
