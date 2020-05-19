@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', 'Open Sans', sans-serif;
+  }
+/*Navbar*/
+#color-nav {
+  background-color: #660066 !important;
+  padding-top: 2.4px;
+  padding-bottom: 2.4px;
+}
+.logo-navbar {
+  font-family: 'Oswald';
+  font-size: 40px;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-left: 21px;      
+}
+#navbarNavDropdown {
+  font-family: 'Open sans';
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-align: center;   
+}
+.navbar-toggler {
+  border: 1px solid;
+  color: #FFFFFF7F ;
+  border-color: #777777 !important;
+  margin-right: 21px;
+}  
