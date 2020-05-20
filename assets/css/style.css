@@ -4,7 +4,24 @@ body {
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Oswald', 'Open Sans', sans-serif;
-  }
+}
+html {
+    scroll-behavior: smooth;
+}
+#about-me {
+    height: ;
+}
+#estudios {
+    height: ;
+}
+#trabajos {
+    height: ;
+}
+#contacto {
+    height: ;
+}
+
+/*Font size*/
 h1 {
     font-size: 40px;
     font-family: 'Oswald';
@@ -130,11 +147,20 @@ p {
     margin-bottom: 16px;
 }
 .card-body1 {
-    height: 100px;
+    height: 200px;
     padding-left: 20px;
+}
+.card-body1 a {
+    font-size:  20;
+    font-weight: 600; 
+    font-family: "Open sans";
 }
 #trabajos {
     padding-bottom: 50px;
+}
+/*Herramientas*/
+#carousel-herramientas {
+    display: none;
 }
 /*Seccion Formulario*/
 .seccion-formulario {
@@ -217,6 +243,32 @@ p {
     .estudios2 {
         margin-bottom: 88px;
     }
+/*Herramientas*/
+    #carousel-herramientas {
+    display: block;
+    }
+    #carousel-bg {
+        background-color: #51c0db7a !important;
+    }
+    .carousel-indicators {
+        top:50px;
+    }    
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    #carousel-bg {
+        background-color: #51c0db7a !important;
+    }
+    .carousel-indicators {
+        top:50px;
+    }    
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
 /*Seccion Formulario*/
     .seccion-formulario {
         margin-top: 80px;
@@ -237,4 +289,5 @@ p {
     .redes-iconos {
         padding-top: 78px;
     }
+
 }
