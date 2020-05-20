@@ -8,19 +8,6 @@ body {
 html {
     scroll-behavior: smooth;
 }
-#about-me {
-    height: ;
-}
-#estudios {
-    height: ;
-}
-#trabajos {
-    height: ;
-}
-#contacto {
-    height: ;
-}
-
 /*Font size*/
 h1 {
     font-size: 40px;
@@ -80,7 +67,7 @@ p {
 /*hero-section*/
 .hero-section {
     height: 500px;
-    background-image: url("../img/bg_hero.png");
+    background-image: url("../img/nati.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
@@ -143,7 +130,7 @@ p {
     margin-top: 40px;
 }
 .ultimos-trabajos img {
-    height: 140px;
+
     margin-bottom: 16px;
 }
 .card-body1 {
