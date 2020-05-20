@@ -67,7 +67,9 @@ p {
 /*hero-section*/
 .hero-section {
     height: 500px;
-    background-image: url("../img/nati.png");
+    background-image: url("../img/nati-01.png");
+    background-position: center center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
@@ -201,6 +203,7 @@ p {
 /*hero-section*/
     .hero-section {
         height: 737px;
+        background-image: url("../img/nati.png");
     }
     .texto-hero {
         padding-top: 520px;
@@ -232,7 +235,7 @@ p {
     }
 /*Herramientas*/
     #carousel-herramientas {
-    display: block;
+        display: block;
     }
     #carousel-bg {
         background-color: #51c0db7a !important;
