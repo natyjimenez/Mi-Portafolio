@@ -24,6 +24,11 @@ h4 {
     font-family: 'Oswald';
     font-weight: 400;
 }
+h5 {
+    font-size: 30px;
+    font-family: 'Oswald';
+    font-weight: 700;
+}
 p {
     font-size: 14px;
     font-family: 'Open sans';
@@ -111,7 +116,7 @@ p {
 .ultimos-trabajos {
     background-color: #660066;
 }
-.ultimos-trabajos h2{
+.ultimos-trabajos h2 {
     text-align: center;
     padding-top: 60px;
     color: #ffffff;
@@ -131,9 +136,31 @@ p {
 #trabajos {
     padding-bottom: 50px;
 }
-
-
-
+/*Seccion Formulario*/
+.seccion-formulario {
+    text-align: center;
+    margin-top: 35px;
+}
+.seccion-formulario h2 {
+    margin-bottom: 80px;
+}
+.boton-contacto {
+    margin-bottom: 80px;
+}
+/*Footer*/
+.icons-section {
+    height: 215px;
+    background-color: #660066;
+    text-align: center;
+}
+.redes-iconos i {
+    color: #ffffff;
+}
+.redes h5 {
+    color: #ffffff;
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
 
 @media (min-width: 480px) {
     h1 {
@@ -150,17 +177,20 @@ p {
         font-family: 'Oswald';
         font-weight: 400;
     }
+    h5 {
+        font-size: 40px;
+    }
     p {
         font-size: 16px;
         font-family: 'Open sans';
         font-weight: 400;  
     }
 /*hero-section*/
-.hero-section {
-    height: 737px;
+    .hero-section {
+        height: 737px;
     }
-.texto-hero {
-    padding-top: 520px;
+    .texto-hero {
+        padding-top: 520px;
     }
 /*Sobre Mi*/
     .about-me-section {
@@ -187,6 +217,24 @@ p {
     .estudios2 {
         margin-bottom: 88px;
     }
-
-
+/*Seccion Formulario*/
+    .seccion-formulario {
+        margin-top: 80px;
+    }
+    .seccion-formulario h2 {
+        margin-bottom: 200px;
+    }
+    .boton-contacto {
+        margin-bottom: 200px;
+    }
+/*Footer*/
+    .icons-section {
+        height: 220px;
+    }
+    .redes h5 {
+        padding-top: 85px;
+    }
+    .redes-iconos {
+        padding-top: 78px;
+    }
 }
